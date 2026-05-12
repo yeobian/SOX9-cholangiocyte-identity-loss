@@ -1,0 +1,72 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter / IPython ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+profile_default/
+ipython_config.py
+
+# ── OS / editor noise ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Data (downloaded on demand; too large for GitHub) ────────────────────────
+data/liver/*.h5ad
+data/liver/*.tar
+data/liver/*.tar.gz
+data/liver/raw/
+data/pancreas/*.h5ad
+data/pancreas/*.tar
+data/pancreas/raw/
+data/ramachandran/*.h5ad
+data/ramachandran/*.tar
+data/ramachandran/raw/
+data/**/*.h5ad
+data/**/*.bak
+data/GSE*.tar
+data/GSE*.csv.gz
+
+# ── Intermediate analysis artefacts ──────────────────────────────────────────
+figures/preprint/_preview_/
+figures/preprint/_v[0-9]*_/
+figures/preprint/explainer-*.png
+figures/comparison/
+figures/sox9/
+figures/prox1/
+figures/liver/
+figures/pancreas/
+figures/retina/
+figures/validation/
+results/*_per_cell.tsv
+
+# ── Logs and temp ────────────────────────────────────────────────────────────
+*.log
+*.out
+/tmp/
+.coverage
+htmlcov/
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+.env
+.env.local
+*.bak
