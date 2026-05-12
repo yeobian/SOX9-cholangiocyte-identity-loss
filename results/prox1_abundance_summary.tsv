@@ -1,0 +1,5 @@
+contrast	ref	n_contrast	n_ref	median_contrast	median_ref	U	p	frac_col
+primary sclerosing cholangitis	normal	8	44	0.4035727389469822	0.4469855231812351	138.0	0.3415583810674595	frac_prox1_pos_loose
+primary sclerosing cholangitis	normal	8	44	0.2216457960644007	0.21721813725490197	172.5	0.9393419308311028	frac_prox1_pos_strict
+primary biliary cholangitis	normal	3	44	0.4074074074074074	0.4469855231812351	60.0	0.8108235777282489	frac_prox1_pos_loose
+primary biliary cholangitis	normal	3	44	0.1510989010989011	0.21721813725490197	56.0	0.679235808743765	frac_prox1_pos_strict
